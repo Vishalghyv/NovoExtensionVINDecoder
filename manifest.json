@@ -1,0 +1,12 @@
+{
+  "name": "Novosteer Ext Demo",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Enter VIN",
+    "default_popup": "popups/popup.html"
+  }
+}
